@@ -39,12 +39,12 @@ int Test_Is_Not_Equal(int a, int b, int real)
 
 void Test1()
 {
-	CU_ASSERT(Test_Is_Equal(3, 4, 7));
+	CU_ASSERT(Test_Is_Equal(3, 4, 6));
 }
 
 void Test2()
 {
-	CU_ASSERT(Test_Is_Not_Equal(4, 5, 10));
+	CU_ASSERT(Test_Is_Not_Equal(4, 5, 8));
 }
 
 /*0 表示成功，1表示失败*/
